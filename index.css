@@ -1,0 +1,221 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.cabecalho{
+  background-color: rgb(91, 212, 151);
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo{
+  left: 30px;
+  position: absolute;
+  padding-top: 30px;
+}
+
+.botoes-cabecalho{
+  font-size: normal;
+  position: absolute;
+  top: 2px;
+  left: 270px;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(91, 212, 151);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  float:unset;
+  z-index: 6;
+}
+
+.button_cabecalhoo{
+  top: 20px;
+}
+
+.button_cabecalhoo .button {
+  background: ; 
+  border: 20px;
+  color: rgb(91, 212, 151);
+  padding: 15px 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button_cabecalhoo .button:hover{
+  background-color: rgb(91, 212, 151);
+  color: #000000;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.buscar{
+  position: absolute;
+  left: 1200px;
+ 
+}
+
+.buscar input{
+ 
+  width: 12rem;
+  height: 2rem;
+  border-radius: 3rem;
+  border: ;
+}
+
+.botao-buscar{
+  background-color: white; 
+  border: 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: 1.5px rgb(91, 212, 151) solid;
+  width: 100px;
+  height: 40px;
+}
+
+
+
+.button_borda{
+  background-color: rgb(91, 212, 151);
+  padding-top: 160px;
+  height: 450px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  left: 100px;
+  position: absolute;
+  top: 140px;
+}
+
+.botoes .button {
+  background-color: rgb(135, 212, 91); 
+  border: 20px;
+  color: rgb(255, 255, 255);
+  padding: 10px 5px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: 1.5px rgb(91, 212, 151) solid;
+  border-radius: 20px;
+}
+
+.botoes .button:hover{
+  background-color: rgb(135, 212, 91);
+  color: white;
+  padding: 10px 5px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.box{
+  position: absolute;
+  top: 140px;
+  left: 470px;
+  height: 450px;
+  width: 1000px;
+  background-color: rgb(91, 212, 151);
+
+}
+
+.cabecalhooo{
+  background-color: rgb(135, 212, 91);
+  padding-top: 140px;
+  margin: 10px;
+}
+
+.mais{
+  color: #ffffff;
+  position: absolute;
+  left: 70px;
+  top: 660px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 20px;
+  padding-left: 150px;
+  padding-right: 5rem;
+  gap: 35px;
+}
+
+.grid-item {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 80% 40%;
+  grid-column: auto auto;
+  grid-column-gap: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  grid-column-gap: 50px;    
+}
+
+.texto{
+  position: relative;
+  right: 220px;
+}
+
+.texto .comprar {
+  background-color: rgb(91, 212, 151); 
+  border: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 10px 5px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+}
+
+.texto .comprar:hover{
+  background-color: white;
+  color: rgb(135, 212, 91);
+  padding: 10px 5px;
+  border: 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: 1.5px rgb(135, 212, 91) solid;
+}
+
+footer{
+  background-color: rgb(135, 212, 91);
+  height: 100px;
+}
+
+.final{
+  background-color: rgb(212, 91, 91);
+  text-align: center;
+}
+
+li {
+display: inline-block;
+margin-top: 2rem;
+
+}
+
+
