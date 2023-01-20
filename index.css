@@ -5,7 +5,7 @@
 
 
 .cabecalho{
-  background-color: rgb(91, 212, 151);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   height: 70px;
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: rgb(91, 212, 151);
+  background: rgb(255, 255, 255);
   height: 100px;
   position: fixed;
   width: 100%;
@@ -41,10 +41,9 @@
   top: 20px;
 }
 
-.button_cabecalhoo .button {
-  background: ; 
+.button_cabecalhoo .button { 
   border: 20px;
-  color: rgb(91, 212, 151);
+  color: rgb(253, 255, 254);
   padding: 15px 10px;
   text-align: center;
   display: inline-block;
@@ -53,7 +52,7 @@
 }
 
 .button_cabecalhoo .button:hover{
-  background-color: rgb(91, 212, 151);
+  background-color: rgb(250, 250, 250);
   color: #000000;
   padding: 15px 10px;
   border: none;
@@ -75,18 +74,18 @@
   width: 12rem;
   height: 2rem;
   border-radius: 3rem;
-  border: ;
+  border: 0px ;
 }
 
 .botao-buscar{
   background-color: white; 
   border: 30px;
-  color: rgb(255, 255, 255);
+  color: black;
   border-radius: 20px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  border: 1.5px rgb(91, 212, 151) solid;
+  border: 1.5px rgb(255, 255, 255) solid;
   width: 100px;
   height: 40px;
 }
@@ -94,7 +93,7 @@
 
 
 .button_borda{
-  background-color: rgb(91, 212, 151);
+  background-color: rgb(124, 50, 50);
   padding-top: 160px;
   height: 450px;
 }
@@ -109,19 +108,19 @@
 }
 
 .botoes .button {
-  background-color: rgb(135, 212, 91); 
+  background-color: rgb(244, 248, 241); 
   border: 20px;
   color: rgb(255, 255, 255);
   padding: 10px 5px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  border: 1.5px rgb(91, 212, 151) solid;
+  border: 1.5px rgb(238, 243, 241) solid;
   border-radius: 20px;
 }
 
 .botoes .button:hover{
-  background-color: rgb(135, 212, 91);
+  background-color: rgb(255, 255, 255);
   color: white;
   padding: 10px 5px;
   border: none;
@@ -136,12 +135,12 @@
   left: 470px;
   height: 450px;
   width: 1000px;
-  background-color: rgb(91, 212, 151);
+  background-color: rgb(255, 255, 255);
 
 }
 
 .cabecalhooo{
-  background-color: rgb(135, 212, 91);
+  background-color: rgb(241, 56, 0);
   padding-top: 140px;
   margin: 10px;
 }
@@ -179,7 +178,7 @@
 }
 
 .texto .comprar {
-  background-color: rgb(91, 212, 151); 
+  background-color: rgb(244, 248, 246); 
   border: 20px;
   border-radius: 20px;
   color: #ffffff;
@@ -193,17 +192,17 @@
 
 .texto .comprar:hover{
   background-color: white;
-  color: rgb(135, 212, 91);
+  color: rgb(168, 91, 212);
   padding: 10px 5px;
   border: 20px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  border: 1.5px rgb(135, 212, 91) solid;
+  border: 1.5px rgb(0, 0, 0) solid;
 }
 
 footer{
-  background-color: rgb(135, 212, 91);
+  background-color: rgb(255, 255, 255);
   height: 100px;
 }
 
